@@ -2,6 +2,15 @@
 
 
 
+
+
+
+
+body{
+    font-family: sans-serif;
+    color: #777;
+}
+
 h2{
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -34,6 +43,14 @@ h2{
     color: inherit;
 }
 
+#menu a:hover{
+    border-bottom: 1px solid #777;
+}
+
+.active{
+    border-bottom: 1px solid #777;
+}
+
 #Hero-image{
     height: 600px;
     width: 100%;
@@ -59,6 +76,80 @@ h2{
         transform: scale(1.1);
     }
 }
+
+#cover-text, cover-text h2{
+    color: #ffffff;
+}
+
+#cover-text{
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+}
+
+#club-ethos{
+    height: 600px;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about{
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr{
+    border-top: 1px solid #777;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading{
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading{
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2{
+    text-align: right;
+}
+
+
 
 #photo{
     clear: both;
