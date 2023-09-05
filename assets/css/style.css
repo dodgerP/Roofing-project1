@@ -54,7 +54,7 @@ h2{
 #Hero-image{
     height: 600px;
     width: 100%;
-    background: url("../assets/images/IMG-roof-WA0015.jpg") no-repeat center center;
+    background: url("/assets/images/IMG-roof-WA0015.jpg") no-repeat center center;
 
     animation-name: roof-zoom;
     animation-duration: 5s;
@@ -93,7 +93,7 @@ h2{
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(111, 96, 245, 0.754);
 
     bottom: 30px;
     right: 150px;
@@ -149,7 +149,50 @@ hr{
     text-align: right;
 }
 
+#welcome{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
 
+#circle-container{
+    width: 30ppx;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg{
+    background-image: url("/assets/images/IMG-20230516-WA0008.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#times{
+    background: url("/assets/images/IMG-20230516-WA0008.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#times div{
+    color: rgb(78, 65, 65);
+    width: 19%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 2px;
+}
 
 #photo{
     clear: both;
