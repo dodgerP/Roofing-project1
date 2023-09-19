@@ -156,7 +156,7 @@ hr{
 }
 
 #circle-container{
-    width: 30ppx;
+    width: 300px;
     height: 300px;
     padding: 30px;
     border-style: solid;
@@ -177,7 +177,7 @@ hr{
 }
 
 #times{
-    background: url("/assets/images/IMG-20230516-WA0008.jpg");
+    background: url("/assets/images/IMG-20230516-WA0018.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -194,6 +194,29 @@ hr{
     margin: 2px;
 }
 
+#times h2{
+    color: #fafafa;
+}
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777;
+}
+
 #photo{
     clear: both;
     line-height: 1;
@@ -205,7 +228,70 @@ hr{
     width: 100%;
 }
 
-
+@media screen and (max-width: 1396px){
+    #club-ethos{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        }
+        
+        #welcome {
+            padding: 30px 0;
+            margin-top: 0;
+        }
+        
+        #left-about, #right-about {
+            width: 100%;
+            float: left;
+            padding: 0;
+        }
+        
+        #center-about {
+            clear: both;
+            width: 100%;
+            float: left;
+            padding: 0;
+        }
+        
+        hr {
+            display: none;
+        }
+    }
+    
+        @media screen and (max-width: 943px) {
+        
+            #menu {
+                clear: left;
+                float: left;
+                margin-left: 30px;
+                margin-bottom: 20px;
+                line-height: 25px;
+            }
+        
+            #cover-text {
+                left: 0px;
+            }
+        
+            #club-ethos {
+                width: 90%;
+                height: 1200px;
+                margin: 0 auto;
+            }
+        
+            .left-about-heading, .right-about-heading {
+                width: inherit;
+            }
+        
+            .left-about-heading h2, .right-about-heading h2 {
+                width: 100%;
+                text-align: center;
+            }
+        
+            .left-about-heading p, .right-about-heading p {
+                text-align: center;
+                padding: 0 20px 0 20px;
+            }
+        }
 
 
 
